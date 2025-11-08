@@ -83,7 +83,11 @@ Todo utilizando álgebra lineal mediante potencias de matrices y algoritmos de c
 
 ## Archivos del Proyecto
 main.m                         ## Punto de inicio del programa
+
 contarCadenas.m                ## Cantidad de cadenas de longitud n entre vértices
+
 caminoMasCorto.m               ## Algoritmo de camino más corto
+
 esFuertementeConexo.m          ## Evaluar fuerte conexidad del grafo
+
 generarPotencias.m             ## Potencias de la matriz de adyacencia
