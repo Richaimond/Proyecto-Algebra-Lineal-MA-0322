@@ -47,16 +47,8 @@ A7 = [0 1 1 1 0 0;
 
 matrices = {A1, A2, A3, A4, A5, A6, A7};
 
-## --- Ejercicio 1: matriz 2 (A2) ---
-disp("---- Matriz 2: A^2, A^3, A^4 y totales ----");
-for n = [2,3,4]
-  W = walks_matrix(A2, n);
-  fprintf("A2^%d =\n", n);
-  disp(W);
-  fprintf("Total de cadenas de longitud %d en A2: %d\n", n, sum(W(:)));
-endfor
 
-## --- Ejercicio 2: matriz 3 (A3) ---
+## --- Ejercicio 1: matriz 3 (A3) ---
 disp("---- Matriz 3: A^2, A^3, A^4 y totales ----");
 for n = [2,3,4]
   W = walks_matrix(A3, n);
@@ -65,7 +57,7 @@ for n = [2,3,4]
   fprintf("Total de cadenas de longitud %d en A3: %d\n", n, sum(W(:)));
 endfor
 
-## --- Ejercicio 3: grafos fuertemente conexos entre 1..7 ---
+## --- Ejercicio 2: grafos fuertemente conexos entre 1..7 ---
 disp("---- Comprobando fuertemente conexos (1..7) ----");
 for k = 1:length(matrices)
   A = matrices{k};
