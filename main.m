@@ -87,7 +87,7 @@ disp("===============================================");
 disp(" ");
 
 
-## Ejemplo de shortest path entre dos vértices (opcional):
-## [p, d] = bfs_shortest_path(A2, 1, 4);
-## fprintf("Camino mas corto de 1 a 4: "); disp(p);
-## fprintf("Distancia: %d\n", d);
+## Ejemplo de shortest path entre dos vértices:
+[p, d] = bfs_shortest_path(A2, 1, 4);
+fprintf("Camino mas corto de 1 a 4: "); disp(p);
+fprintf("Distancia: %d\n", d);
